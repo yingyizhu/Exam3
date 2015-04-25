@@ -8,6 +8,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+        <asp:DropDownList ID="Language1" runat="server" AutoPostBack ="true" >
+            <asp:ListItem Value="auto">Auto</asp:ListItem>
+            <asp:ListItem Value="en-US">English (US)</asp:ListItem>
+            <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
+            <asp:ListItem Value="fr">Franch</asp:ListItem>
+            <asp:ListItem Value="vi">VietNamese</asp:ListItem>
+
+        </asp:DropDownList>
     <div>
     
         <asp:Label ID="Label1" runat="server" Text="Label" meta:resourceKey="Label1"></asp:Label>

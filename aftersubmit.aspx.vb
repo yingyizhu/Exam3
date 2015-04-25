@@ -18,18 +18,9 @@ Partial Class _Default
 
 
 
-    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-
-
-    End Sub
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         Dim earning As Decimal = 0
         TextBox2.Text = String.Format("{0:c}", earning)
-
-        content.Visible = True
-        response.Visible = False
-
     End Sub
 End Class
